@@ -27,10 +27,12 @@ All version of debian linux.
 # git clone https://github.com/e2ma3n/iptables-restore
 # mkdir /opt/iptables-restore/
 # mv iptables-restore/startup.sh /opt/iptables-restore/
+# mv iptables-restore/rules.txt /opt/iptables-restore/
 # chmod +x /opt/iptables-restore/startup.sh
 # echo '@reboot root /opt/iptables-restore/startup.sh' >> /etc/crontab
 # echo '0 0 * * * root /opt/iptables-restore/startup.sh' >> /etc/crontab
 ```
+edit /opt/iptables-restore/rules.txt
 you can read log file using :
 ```
 # tail -f /var/log/iptables-resotre.log
