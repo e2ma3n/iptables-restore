@@ -9,6 +9,7 @@ All version of debian linux.
 | Distribution | Version |
 | ---------- | ----------- |
 | Debian     | debian-9.9.0-amd64-netinst |
+| CeotOS     | CentOS Linux release 7.6.1810 (Core) |
 
 
 ## Dependencies
