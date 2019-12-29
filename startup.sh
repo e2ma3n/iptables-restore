@@ -2,14 +2,12 @@
 # Programming and idea by : E2MA3N [Iman Homayouni]
 # Gitbub : https://github.com/e2ma3n
 # Email : e2ma3n@Gmail.com
-# iptables-restore v1.0 - iptables rules restart at 00:00 and system reboot
-# Last update : 12-June-2019_19:40:04
+# iptables-restore v2.0 - iptables rules restart at 00:00 and system reboot
+# Last update : 29-December-2019_15:05:39
 # ----------------------------------------------------------------------------- #
 
 # comment : check /var/log/ directory
-if [ ! -d /var/log/ ] ; then
-	mkdir -p /var/log/
-fi
+[ ! -d /var/log/ ] && mkdir -p /var/log/
 
 # comment : get correct time and date
 time=$(date +"%d-%B-%Y_%T")
